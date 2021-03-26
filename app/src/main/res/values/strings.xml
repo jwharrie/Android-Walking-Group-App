@@ -1,0 +1,197 @@
+<resources>
+    <string name="app_name">Walking School Bus</string>
+
+    //Start Up Menu
+    <string name="btn_new_user">Create new user</string>
+
+    //Login Menu
+    <string name="txt_loginHeader">Login Menu</string>
+
+    //Create New User
+    <string name="txt_newUserHeader">Create New User</string>
+    <string name="txt_userName">Enter Name: </string>
+    <string name="txt_userEmail">Enter Email: </string>
+    <string name="txt_userBirthYear">Enter Birth Year: </string>
+    <string name="txt_userBirthMonth">Enter Birth Month: </string>
+    <string name="txt_userAddress">Enter Address: </string>
+    <string name="txt_userCellPhone">Enter CellPhone: </string>
+    <string name="txt_userHomePhone">Enter Home Phone: </string>
+    <string name="txt_userGrade">Enter Grade: </string>
+    <string name="txt_userTeacherName">Enter Teacher: </string>
+    <string name="txt_userEmergencyContactInfo">Enter Emergency Contact: </string>
+    <string name="txt_userPassword">Enter Password: </string>
+    <string name="txt_userName2">Name*</string>
+    <string name="txt_userEmail2">Email*</string>
+    <string name="txt_userBirthYear2">Year</string>
+    <string name="txt_userBirthMonth2">Month</string>
+    <string name="txt_userAddress2">Address</string>
+    <string name="txt_userCellPhone2">Cellphone</string>
+    <string name="txt_userHomePhone2">Home Phone</string>
+    <string name="txt_userGrade2">Grade</string>
+    <string name="txt_userTeacherName2">Teacher\'s Name</string>
+    <string name="txt_userEmergencyContactInfo2">Emergency Contact</string>
+    <string name="txt_userPassword2">Password*</string>
+    <string name="txt_required_fields">* required fields</string>
+
+    //Main Menu
+    <string name="txt_mainMenuHeader">Main Menu</string>
+    <string name="title_game_menu">Game Menu</string>
+    <string name="title_permission_requests">Permissions</string>
+    <string name="title_account_management">Account Management</string>
+    <string name="btn_logout">Logout</string>
+    <string name="btn_parents_dashboard">Parents Dashboard</string>
+    <string name="btn_maps">Go to maps</string>
+    <string name="btn_messages">Messages</string>
+
+    //Account Management
+    <string name="title_account_monitoring">Account Monitoring</string>
+    <string name="title_activity_viewGroups">View Your Groups</string>
+    <string name="btn_editUserInfo">Edit User Info</string>
+    <string name="btn_editChildInfo">Edit Child Info</string>
+
+    //Choose Child to Edit
+    <string name="txt_editChildInstructions">Click on a child to edit their info.</string>
+
+    //Edit User Info
+    <string name="title_activity_edit_user_information">Edit User Information</string>
+
+    //Edit Chosen Child Info
+    <string name="title_activity_edit_child_information">Edit Child Information</string>
+
+    //Account Monitoring
+    <string name="btn_monitor_child">See who you\'re monitoring</string>
+    <string name="btn_monitor_parent">See who\'s monitoring you</string>
+
+    //Monitor Child
+    <string name="txt_monitorChild">You are monitoring: </string>
+
+    //Monitor Parent
+    <string name="txt_monitorParent">You are being monitored by: </string>
+
+    //Find User
+    <string name="txt_findUser">Find a user by their ID or E-mail address.</string>
+    <string name="txt_enterId">Enter ID</string>
+    <string name="txt_enterEmail">Enter E-mail</string>
+
+    //View Groups
+    <string name="txt_viewGroupsAsLeader">You lead these groups: </string>
+    <string name="txt_viewGroupsAsMember">You are a member of these groups: </string>
+    <string name="txt_viewGroupsAsMonitor">You are monitoring users in these groups: </string>
+    <string name="btn_viewGroupsAsLeader">Leader</string>
+    <string name="btn_viewGroupsAsMember">Member</string>
+    <string name="btn_viewGroupsAsMonitor">Monitor</string>
+
+    //Messages Menu
+    <string name="txt_messagesMenuHeader">MESSAGES</string>
+    <string name="btn_view_unread_messages">View Unread Messages</string>
+    <string name="btn_view_read_messages">View Read Messages</string>
+    <string name="btn_send_new_message">Send New Message</string>
+    <string name="btn_PANIC">PANIC</string>
+
+    //Unread Messages
+    <string name="txt_unreadMessagesHeader">Unread Messages</string>
+
+    //Read Messages
+    <string name="txt_readMessagesHeader">Read Messages</string>
+
+    //Send New Message
+    <string name="hint_message">Enter message here.</string>
+    <string name="btn_message_leader_send">Send as Leader</string>
+    <string name="btn_message_child_send">Send as Child</string>
+    <string name="txt_setEmergencyCheckbox">Emergency</string>
+
+    //Permissions Menu
+    <string name="btn_pending_permissions">Pending Permissions</string>
+    <string name="btn_permissionHistory">Permissions History</string>
+
+    //View Pending Permission
+    <string name="btn_accept">ACCEPT</string>
+    <string name="btn_deny">DENY</string>
+
+    //Game Menu
+    <string name="title_activity_rewards">View Rewards</string>
+    <string name="btn_leaderboard">Leaderboard</string>
+
+    //Rewards
+    <string name="txt_viewRewardsHeader">Your Rewards</string>
+
+    //Leaderboard
+    <string name="leaderboard_title">Leaderboard</string>
+    <string name="rank">Rank</string>
+    <string name="user">User</string>
+    <string name="points">Points</string>
+
+    //Parents Dashboard
+
+    //Maps
+    <string name="please_select_origin_destination">Please select an Origin and Destination.</string>
+    <string name="destination_reached">Destination Reached, Points earned: </string>
+    <string name="no_groups_found">No groups found:</string>
+    <string name="manage_join_group">Manage/Join Group</string>
+    <string name="save_group_first">Please save the group first</string>
+    <string name="not_walking_with_any_group">Not walking with any group.</string>
+    <string name="walking_with_group">Walking with Group:</string>
+    <string name="directions_not_found">Direction not found!</string>
+    <string name="map_activity_update_disable">Location Updates</string>
+    <string name="map_activity_save">Save</string>
+    <string name="map_activity_create">Create group</string>
+
+    //Create Group
+    <string name="create_group_create">Create</string>
+    <string name="create_group_placeholder_group">Group Name</string>
+    <string name="create_group_title">Create group</string>
+
+    //Join Group
+    <string name="join_group_member_list_heading">Your Monitored Users in this Group:</string>
+    <string name="join_activity_Join">Join</string>
+    <string name="join_activity_add_members">Add Members</string>
+    <string name="join_activity_walk">Walk with group </string>
+    <string name="joinActivityLeaderHeading">You are the Leader of this group.</string>
+    <string name="deleteBtn">Delete</string>
+    <string name="joinActivityMemberHeading">You are a member of this Group.</string>
+    <string name="leaveBtn">Leave</string>
+    <string name="JoinActivitynotAMemberHeading">You are not a member of this Group.</string>
+    <string name="joinBtn">Join</string>
+    <string name="txt_addUserClicked">press and hold to add user to group</string>
+    <string name="txt_joinGroupFromList">press and hold to remove user from group</string>
+    <string name="txt_joinGroupFromListNotRemoveable">Only leader can remove other members.</string>
+    <string name="success_removed">Successfully Removed</string>
+    <string name="group_deleted">Group deleted</string>
+    <string name="success_joined">Successfully joined the group</string>
+    <string name="success_removing">Successfully removed you from the group</string>
+    <string name="join_group_other_member_list_heading">Other members of the group.</string>
+
+    //Add Users
+    <string name="add_user_title">List of users monitored by you:</string>
+    <string name="btn_done">Done</string>
+
+    //Buttons used in multiple activities
+    <string name="btn_back">Back</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_add_user">Add user</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_refresh">REFRESH</string>
+    <string name="txt_loading">LOADING…</string>
+    <string name="btn_edit">EDIT</string>
+
+
+
+    <string name="title_activity_maps">Map</string>
+    <string name="artworkCredits">Artwork By Aidan Netley</string>
+    <string name="txt_monitorChildReadOnly">This user is monitoring: </string>
+    <string name="txt_monitorParentReadOnly">This user is being monitored by: </string>
+    <string name="txt_groupMembers">Group Members</string>
+    <string name="txt_permissionInfoHeader">Permission Request Info</string>
+    <string name="txt_displayEditUserFromList">
+        %1$s, %2$s\n Click and hold to remove from list.</string>
+    <string name="txt_displayReadUserFromList">
+        %1$s\n E-mail: %2$s\n Address: %3$s\n Home: %4$s\n Cell: %5$s</string>
+    <string name="title_activity_parent_map">Map</string>
+    <string name="refresh">Refresh</string>
+
+
+    <!--Hardcode your API key like this. Don't use this test one!-->
+    <string name="apikey">0E982A72-0AF4-440C-8D27-B1F37FA32E145</string>
+
+</resources>
+

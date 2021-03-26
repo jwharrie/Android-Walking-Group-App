@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ca.cmpt276.walkinggroup.app.MonitorChildActivity"
+    android:background="#904E55">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        tools:context="ca.cmpt276.walkinggroup.app.MonitorParentActivity">
+
+        <TextView
+            android:id="@+id/monitorParentHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:padding="8dp"
+            android:textStyle="bold"
+            android:text="@string/txt_monitorParent"
+            android:textColor="@color/colorHeadings" />
+
+        <ListView
+            android:id="@+id/monitorParentList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_addUser"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:layout_margin="@dimen/smallPadding"
+                android:background="@drawable/button"
+                android:textAllCaps="false"
+                android:text="@string/btn_add_user" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ca.cmpt276.walkinggroup.app.JoinGroupActivity"
+    android:background="#904E55">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="2dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/joinGroupActivityUserInfo"
+            android:textColor="@color/colorHeadings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/smallMargin"
+            android:textSize="@dimen/heading" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/content_margin"
+            android:layout_marginRight="@dimen/content_margin"
+            android:text="@string/join_group_member_list_heading"
+            android:textColor="@color/colorHeadings"
+            android:textSize="@dimen/smallHeading" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/content_margin"
+            android:layout_marginRight="@dimen/content_margin"
+            android:layout_weight="1"
+            android:fillViewport="true">
+
+            <ListView
+                android:id="@+id/JoinGroupActivityChildList"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="4dp" />
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/joinGroupActivityOtherMembersTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/colorHeadings"
+            android:layout_marginLeft="@dimen/content_margin"
+            android:layout_marginRight="@dimen/content_margin"
+            android:layout_marginTop="@dimen/smallMargin"
+            android:text="@string/join_group_other_member_list_heading"
+            android:textSize="@dimen/smallHeading"
+            android:visibility="invisible" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/content_margin"
+            android:layout_marginRight="@dimen/content_margin"
+            android:layout_weight="1"
+            android:fillViewport="true">
+
+            <ListView
+                android:id="@+id/JoinGroupActivityOtherMembersList"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="4dp" />
+        </ScrollView>
+
+        <Switch
+            android:id="@+id/joinActivityWalkSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/content_margin"
+            android:switchPadding="@dimen/smallMargin"
+            android:layout_gravity="end"
+            android:text="@string/join_activity_walk"/>
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/smallMargin"
+            android:orientation="horizontal">
+
+            <TableRow>
+
+                <Button
+                    android:id="@+id/joinActivityJoinLeaveButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/join_activity_Join"
+                    android:layout_marginRight="@dimen/smallMargin"
+                    style="@style/ButtonStyle"
+                    android:background="@drawable/button" />
+
+                <Button
+                    android:id="@+id/joinActivityJoinAddMembersButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/join_activity_add_members"
+                    style="@style/ButtonStyle"
+                    />
+
+                <!--<Button-->
+                    <!--android:id="@+id/joinActivitywalkButton"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:background="@drawable/button"-->
+                    <!--android:textAllCaps="false"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:text="@string/join_activity_walk" />-->
+
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

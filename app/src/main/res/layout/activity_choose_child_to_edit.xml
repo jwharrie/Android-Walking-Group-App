@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#904E55"
+    tools:context="ca.cmpt276.walkinggroup.app.ChooseChildToEditActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/content_margin"
+        android:orientation="vertical"
+        tools:context="ca.cmpt276.walkinggroup.app.MonitorChildActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_monitorChild"
+            android:textColor="@color/colorHeadings"
+            android:textSize="@dimen/smallHeading"
+            android:textStyle="bold" />
+
+        <ListView
+            android:id="@+id/monitorChildList"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/smallMargin"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

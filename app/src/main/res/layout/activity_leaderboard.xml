@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ca.cmpt276.walkinggroup.app.LeaderboardActivity"
+    android:background="@color/colorBackground">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/leaderboard_title"
+        android:textSize="@dimen/heading"
+        android:textAlignment="center"
+        android:layout_margin="@dimen/content_margin"
+        android:textStyle="bold"
+        android:textColor="@color/colorHeadings"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="100"
+        android:orientation="horizontal"
+        android:layout_marginRight="@dimen/content_margin"
+        android:layout_marginLeft="@dimen/content_margin">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorHeadings"
+            android:gravity="center"
+            android:layout_weight="25"
+            android:text="@string/rank"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorHeadings"
+            android:gravity="center"
+            android:layout_weight="41"
+            android:text="@string/user"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorHeadings"
+            android:gravity="center"
+            android:layout_weight="33"
+            android:text="@string/points"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/content_margin"
+        android:fillViewport="true">
+
+        <ListView
+            android:id="@+id/leaderboard_ListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></ListView>
+
+    </ScrollView>
+
+</LinearLayout>

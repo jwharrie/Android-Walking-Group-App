@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        tools:context="ca.cmpt276.walkinggroup.app.MapsActivity">
+    </fragment>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/smallMargin"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:background="@drawable/button"
+                android:id="@+id/maps_activity_create_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="@string/map_activity_create"
+                android:layout_margin="@dimen/smallMarginMapsButton"/>
+
+            <Button
+                android:background="@drawable/button"
+                android:id="@+id/maps_activity_save_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/map_activity_save"
+                android:textAllCaps="false"
+                android:visibility="invisible"
+                android:layout_margin="@dimen/smallMarginMapsButton"
+                android:enabled="false"/>
+        </LinearLayout>
+
+        <Switch
+            android:id="@+id/maps_activity_location_updates_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:switchPadding="@dimen/smallMargin"
+            android:text="@string/map_activity_update_disable"
+            android:checked="true"
+            android:layout_margin="@dimen/smallMarginMapsButton"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/maps_activity_walk_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/smallPadding"
+        android:background="@color/colorButtonBackground"
+        android:layout_margin="@dimen/smallMargin"
+        android:text="@string/not_walking_with_any_group"
+        android:textAlignment="center"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

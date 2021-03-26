@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#904E55"
+    android:orientation="vertical"
+    tools:context="ca.cmpt276.walkinggroup.app.NewUserActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/smallMargin"
+        android:text="@string/txt_newUserHeader"
+        android:textColor="@color/colorHeadings"
+        android:textSize="@dimen/heading"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="@dimen/content_margin"
+        android:layout_marginRight="@dimen/content_margin"
+        android:layout_marginTop="@dimen/smallMargin"
+        android:layout_weight="1">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txt_userName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/smallMargin"
+                android:text="@string/txt_userName"
+                android:textColor="@color/colorHeadings"
+                android:textSize="@dimen/contentTextSize" />
+
+            <EditText
+                android:id="@+id/etxt_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/smallMargin"
+                android:layout_weight="1"
+                android:hint="@string/txt_userName2"
+                android:inputType="textPersonName"
+                android:maxEms="10"
+                android:paddingTop="0dp"
+                android:textColor="@color/colorHeadings"
+                android:textColorHint="@color/colorHintEditText"
+                android:textSize="@dimen/editTextTextSize" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/txt_userEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/smallMargin"
+                android:text="@string/txt_userEmail"
+                android:textColor="@color/colorHeadings"
+                android:textSize="@dimen/contentTextSize" />
+
+            <EditText
+                android:id="@+id/etxt_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/smallMargin"
+                android:layout_weight="1"
+                android:hint="@string/txt_userEmail2"
+                android:inputType="textEmailAddress"
+                android:paddingTop="0dp"
+                android:textColor="@color/colorHeadings"
+                android:textColorHint="@color/colorHintEditText"
+                android:textSize="@dimen/editTextTextSize" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/txt_userPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/smallMargin"
+                android:text="@string/txt_userPassword"
+                android:textColor="@color/colorHeadings"
+                android:textSize="@dimen/contentTextSize" />
+
+            <EditText
+                android:id="@+id/etxt_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/smallMargin"
+                android:layout_weight="1"
+                android:hint="@string/txt_userPassword2"
+                android:inputType="textPassword"
+                android:paddingTop="0dp"
+                android:textColor="@color/colorHeadings"
+                android:textColorHint="@color/colorHintEditText"
+                android:textSize="@dimen/editTextTextSize" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/txt_birthMonth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/smallMargin"
+                android:text="@string/txt_userBirthMonth"
+                android:textColor="@color/colorHeadings"
+                android:textSize="@dimen/contentTextSize" />
+
+            <EditText
+                android:id="@+id/etxt_birthMonth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/smallMargin"
+                android:layout_weight="1"
+                android:hint="@string/txt_userBirthMonth2"
+                android:inputType="number"
+                android:maxLength="2"
+                android:paddingTop="0dp"
+                android:textColor="@color/colorHeadings"
+                android:textColorHint="@color/colorHintEditText"
+                android:textSize="@dimen/editTextTextSize" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/txt_birthYear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/smallMargin"
+                android:text="@string/txt_userBirthYear"
+                android:textColor="@color/colorHeadings"
+                android:textSize="@dimen/contentTextSize" />
+
+            <EditText
+                android:id="@+id/etxt_birthYear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/smallMargin"
+                android:layout_weight="1"
+                android:hint="@string/txt_userBirthYear2"
+                android:inputType="number"
+                android:maxLength="4"
+                android:paddingTop="0dp"
+                android:textColor="@color/colorHeadings"
+                android:textColorHint="@color/colorHintEditText"
+                android:textSize="@dimen/editTextTextSize" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/txt_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/smallMargin"
+                android:text="@string/txt_userAddress"
+                android:textColor="@color/colorHeadings"
+                android:textSize="@dimen/contentTextSize" />
+
+            <EditText
+                android:id="@+id/etxt_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/smallMargin"
+                android:layout_weight="1"
+                android:hint="@string/txt_userAddress2"
+                android:inputType="textPersonName"
+                android:paddingTop="0dp"
+                android:textColor="@color/colorHeadings"
+                android:textColorHint="@color/colorHintEditText"
+                android:textSize="@dimen/editTextTextSize" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/txt_cellPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/smallMargin"
+                android:text="@string/txt_userCellPhone"
+                android:textColor="@color/colorHeadings"
+                android:textSize="@dimen/contentTextSize" />
+
+            <EditText
+                android:id="@+id/etxt_cellPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/smallMargin"
+                android:layout_weight="1"
+                android:digits="0123456789-()"
+                android:hint="@string/txt_userCellPhone2"
+                android:inputType="phone"
+                android:paddingTop="0dp"
+                android:textColor="@color/colorHeadings"
+                android:textColorHint="@color/colorHintEditText"
+                android:textSize="@dimen/editTextTextSize" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/txt_homePhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/smallMargin"
+                android:text="@string/txt_userHomePhone"
+                android:textColor="@color/colorHeadings"
+                android:textSize="@dimen/contentTextSize" />
+
+            <EditText
+                android:id="@+id/etxt_homePhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/smallMargin"
+                android:layout_weight="1"
+                android:digits="0123456789-()"
+                android:hint="@string/txt_userHomePhone2"
+                android:inputType="phone"
+                android:paddingTop="0dp"
+                android:textColor="@color/colorHeadings"
+                android:textColorHint="@color/colorHintEditText"
+                android:textSize="@dimen/editTextTextSize" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/txt_grade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/smallMargin"
+                android:text="@string/txt_userGrade"
+                android:textColor="@color/colorHeadings"
+                android:textSize="@dimen/contentTextSize" />
+
+            <EditText
+                android:id="@+id/etxt_grade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/smallMargin"
+                android:layout_weight="1"
+                android:hint="@string/txt_userGrade2"
+                android:inputType="textPersonName"
+                android:paddingTop="0dp"
+                android:textColor="@color/colorHeadings"
+                android:textColorHint="@color/colorHintEditText"
+                android:textSize="@dimen/editTextTextSize" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/txt_teacher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/smallMargin"
+                android:text="@string/txt_userTeacherName"
+                android:textColor="#F2EFE9"
+                android:textSize="@dimen/contentTextSize" />
+
+            <EditText
+                android:id="@+id/etxt_emergencyContact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/smallMargin"
+                android:layout_weight="1"
+                android:hint="@string/txt_userEmergencyContactInfo2"
+                android:inputType="textPersonName"
+                android:paddingTop="0dp"
+                android:textColor="@color/colorHeadings"
+                android:textColorHint="@color/colorHintEditText"
+                android:textSize="@dimen/editTextTextSize" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/smallMargin"
+                android:text="@string/txt_userEmergencyContactInfo"
+                android:textColor="#F2EFE9"
+                android:textSize="@dimen/contentTextSize" />
+
+            <EditText
+                android:id="@+id/etxt_teacher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/smallMargin"
+                android:layout_weight="1"
+                android:hint="@string/txt_userTeacherName2"
+                android:inputType="textPersonName"
+                android:paddingTop="0dp"
+                android:textColor="@color/colorHeadings"
+                android:textColorHint="@color/colorHintEditText"
+                android:textSize="@dimen/editTextTextSize" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/content_margin"
+                android:text="@string/txt_required_fields"
+                android:textColor="@color/colorHeadings" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btn_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_margin="@dimen/smallMargin"
+        android:layout_marginBottom="@dimen/smallMargin"
+        android:background="@drawable/button"
+        android:text="@android:string/VideoView_error_button" />
+</LinearLayout>

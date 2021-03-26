@@ -1,0 +1,20 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="content_margin">24dp</dimen>
+    <dimen name="big_margin">36dp</dimen>
+    <dimen name="extraLargeMargin">30dp</dimen>
+    <dimen name="smallMargin">12dp</dimen>
+    <dimen name="smallPadding">6dp</dimen>
+    <dimen name="smallMarginMapsButton">5dp</dimen>
+    <dimen name="buttonRadius">3dp</dimen>
+
+    <!--Text Sizes. -->
+    <dimen name="heading">20sp</dimen>
+    <dimen name="smallHeading">16sp</dimen>
+    <dimen name="infoWindowTextSize">14sp</dimen>
+    <dimen name="editTextTextSize">14sp</dimen>
+    <dimen name="contentTextSize">14sp</dimen>
+
+
+</resources>

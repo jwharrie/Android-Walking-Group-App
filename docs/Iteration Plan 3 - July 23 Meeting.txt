@@ -1,0 +1,34 @@
+Roles:
+
+Jacob: product manager
+Amrit: scrum master
+Bryan: repo manager
+Anthony: team member
+
+Task allocation:
+
+Jacob:
+	[15] App functions correctly when an action generates a permission request 
+	     (app enables permissions for all API calls to server)
+	[10] App shows pending permissions and allows user to approve or deny their pending requests.
+
+Amrit:
+	[10] Earn points each time user completes a walk.
+	[15] Leader board: display total number of points, first name, first letter of last name.
+
+Bryan:
+	[20] User able to spend points on rewards, or automatically get rewards at milestones (achievements).
+	     Up to 15 point deduction for low quality or poorly executed/integrated rewards.
+
+	[10] Able to see rewards previously unlock
+	[5]  Able to see current points
+
+Anthony:
+	[15] App allows user to see all permission requests which have been sent to them. Shows: 
+	     - status, 
+	     - details of what was requested, 
+	     - which user approved or denied the request (if any)
+
+	**You jump in to help Bryan out with this after doing the above**
+	[20] User able to spend points on rewards, or automatically get rewards at milestones (achievements).
+	     Up to 15 point deduction for low quality or poorly executed/integrated rewards.

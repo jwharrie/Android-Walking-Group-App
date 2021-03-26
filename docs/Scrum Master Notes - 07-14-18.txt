@@ -1,0 +1,20 @@
+Meeting started at 12:00 pm.
+Started with introductions.
+Progress:
+	Anthony: 
+	- has edit user and edit child implemented. Working on first feature of his user story. Second and third features finished.
+	Brian: 
+	- working on group activities and monitor parent activity. Has features 2 and 3 of his user story finished. Still working on first one.
+	- cleaned up main menu UI in his branch by putting all buttons in linear layout
+	Amrit:
+	- created new map to see child on map. Can see child but not info of child yet.
+	- asked about placement of "launch map" button in app. Was placed in monitor activity, but then relocated it to main menu
+	Jacob (Scrum Master):
+	- working on in-app messages. Implemented all requirements for his user story.
+	- spent much time explaining and answering questions about the features
+	- got some suggestions about implementing setting for emergency and non-emergency messages for group leader
+Other notes:
+	- Anthony informed us about a camping trip from July 20-22. Will be after due date for iteration 2
+Meeting ended around 12:50 pm.
+
+

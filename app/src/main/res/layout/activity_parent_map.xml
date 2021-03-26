@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="ca.cmpt276.walkinggroup.app.parentMapActivity" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/content_margin"
+        android:background="@color/colorHeadings"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_number_emergency_messages2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/smallMargin"
+            android:layout_gravity="center"
+            android:text="@string/txt_loading"
+            android:textSize="@dimen/smallHeading"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_total_number_unread_messages2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/smallMargin"
+            android:text="@string/txt_loading"
+            android:textSize="@dimen/smallHeading"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_unread_messages2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:padding="@dimen/smallPadding"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/content_margin"
+        android:text="@string/btn_view_unread_messages"
+        style="@style/ButtonStyle"/>
+
+</RelativeLayout>

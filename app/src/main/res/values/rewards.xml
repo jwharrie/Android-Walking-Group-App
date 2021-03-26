@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="unlocked_badges">
+        <item>@drawable/school_bus_badge_1_1</item>
+        <item>@drawable/school_bus_badge_1_2</item>
+        <item>@drawable/school_bus_badge_2_1</item>
+        <item>@drawable/school_bus_badge_2_2</item>
+        <item>@drawable/school_bus_badge_3_1</item>
+        <item>@drawable/school_bus_badge_3_2</item>
+    </array>
+    <array name="locked_badges">
+        <item>@drawable/school_bus_badge_1_1_locked</item>
+        <item>@drawable/school_bus_badge_1_2_locked</item>
+        <item>@drawable/school_bus_badge_2_1_locked</item>
+        <item>@drawable/school_bus_badge_2_2_locked</item>
+        <item>@drawable/school_bus_badge_3_1_locked</item>
+        <item>@drawable/school_bus_badge_3_2_locked</item>
+    </array>
+    <string-array name="badge_names">
+        <item>School Bus 1</item>
+        <item>School Bus 1+</item>
+        <item>School Bus 2</item>
+        <item>School Bus 2+</item>
+        <item>School Bus 3</item>
+        <item>School Bus 3+</item>
+    </string-array>
+    <integer-array name="badge_costs">
+        <item>0</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>400</item>
+        <item>500</item>
+    </integer-array>
+    <string name="txt_viewRewards">Your Rewards (%1$d points)</string>
+    <string name="avatar_menu_locked">Locked (%1$d points)</string>
+    <string name="avatar_menu_unlocked">Unlocked</string>
+    <string name="avatar_menu_active">Equipped</string>
+</resources>
